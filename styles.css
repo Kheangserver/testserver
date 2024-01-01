@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 600px; /* Adjust the max-width to your preference */
+    height: 800px; /* Set the height to 800px */
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    position: relative; /* Required for absolute positioning of lines and logos */
+}
+
+.header {
+    position: relative;
+}
+.welcome-text {
+    color: #000000;
+    font-size: 250%;
+    font-weight: 5000;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(8%); /* Center the line horizontally */
+}
+
+
+
+
+.ICAFE {
+font-size: 250%;
+color: #bcc721;
+left: auto;
+transform: translateX(60%); /* Center the line horizontally */
+
+}
+
+
+
+
+.header-photo {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the max-height to your preference */
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.line {
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f7cd15; /* Adjust the line color as needed */
+    border-radius: 20px;
+
+}
+
+.line1 {
+    width: 120px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the line horizontally */
+    bottom: -10px; /* Increase the distance from the image */
+}
+
+.line2 {
+    width: 390px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the line horizontally */
+    bottom: -20px; /* Increase the distance from the image */
+}
+
+form {
+    margin-top: 20px;
+    position: relative; /* Required for absolute positioning of the logos */
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+input[type="password"] {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #ffffff;
+    text-align: center; /* Center the text inside the input box */
+}
+
+
+@font-face {
+    font-family: 'Bubblegum';
+    src: url('Font/Bubblegum.ttf') format('truetype');
+}
+
+button {
+    background-color: #ffb325;
+    color: #020101;
+    height: 40px;
+    font-size: 130%;
+    width: 130px;
+    border-radius: 19px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bubblegum', sans-serif;
+    position: relative;
+}
+
+/* Optional: If you want to keep the text accessible for screen readers */
+.button-text {
+    position: absolute;
+    width: 1px;
+    height: 2px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+button:hover {
+    background-color: #f30909;
+}
+.logo2 {
+    width: 86px;
+    height: 125px;
+    background-image: url('image/iCafe\ logo.png');
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
